@@ -1,3 +1,5 @@
+// Lab
+
 package com.example.helloinf2007
 
 import android.os.Bundle
@@ -26,6 +28,7 @@ class MainActivity : ComponentActivity() {
         val formattedDateTime = currentDateTime.format(formatter)
 
         Log.d("MainActivity", "OnCreate function is created at $formattedDateTime")
+        Log.d("MainActivity", "Attack of the killer androids")
 
         setContent {
             HelloINF2007Theme {
